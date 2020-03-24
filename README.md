@@ -5,7 +5,7 @@
 
 ## VERY NEW -> May have issues
 
-This is the base Nerves System configuration for the Raspberry Pi 3 Model A+
+This is the base Nerves System configuration for the Raspberry Pi 3 Model A+ for Valiot
 with the USB port running in gadget mode.
 
 ![Raspberry Pi 3 A+ image](assets/images/rpi_a_plus.png)
