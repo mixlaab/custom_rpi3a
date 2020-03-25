@@ -1,7 +1,7 @@
-defmodule NervesSystemRpi3a.MixProject do
+defmodule CustomRpi3a.MixProject do
   use Mix.Project
 
-  @app :nerves_system_rpi3a
+  @app :custom_rpi3a
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
            |> String.trim()
@@ -35,7 +35,7 @@ defmodule NervesSystemRpi3a.MixProject do
     [
       type: :system,
       artifact_sites: [
-        {:github_releases, "nerves-project/#{@app}"}
+        {:github_releases, "mixlaab/#{@app}"}
       ],
       build_runner_opts: build_runner_opts(),
       platform: Nerves.System.BR,
@@ -66,7 +66,7 @@ defmodule NervesSystemRpi3a.MixProject do
     [
       files: package_files(),
       licenses: ["Apache 2.0"],
-      links: %{"GitHub" => "https://github.com/nerves-project/#{@app}"}
+      links: %{"GitHub" => "https://github.com/mixlaab/#{@app}"}
     ]
   end
 
